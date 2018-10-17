@@ -1,0 +1,33 @@
+﻿<Window x:Class="Tool.ReplicationTransfer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tool.ReplicationTransfer"
+        mc:Ignorable="d"
+        Title="Replikation Übertragen" MinWidth="450" Width="450" SizeToContent="Height" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Kopieren von" Margin="10,5,10,0">
+            <local:InputControl x:Name="IcCopyFrom" Margin="0,5,0,0"></local:InputControl>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Header="Übertragen auf" Margin="10,5,10,5">
+            <local:InputControl x:Name="IcTransferTo" IsTransferTo="True" Margin="0,5,0,0"></local:InputControl>
+        </GroupBox>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10,5,10,10">
+                <CheckBox x:Name="ChkBTransferUser" IsChecked="True">Benutzer übertragen</CheckBox>
+                <CheckBox x:Name="ChkBTransferSettings" IsChecked="True" Margin="10,0,0,0">Einstellungen übertragen</CheckBox>
+            </StackPanel>
+            <Button x:Name="BtnTransfer" Click="BtnTransfer_Click" Grid.Column="1" Padding="10,3" Margin="10,5,10,10">Übertragen</Button>
+        </Grid>
+    </Grid>
+</Window>
