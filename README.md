@@ -12,7 +12,7 @@ This tool allows you to copy all shared objects (+ optionally users and settings
 ## Feedback 
 
 * Send us an email at support@amtangee.com
-* File an issue here in [GitHub](https://github.com/amtangee/Tool.ReplicationTransfer/issues)
+* File an issue here in [GitHub](https://github.com/amtangee/Tools.ReplicationTransfer/issues)
 
 ## License
 
