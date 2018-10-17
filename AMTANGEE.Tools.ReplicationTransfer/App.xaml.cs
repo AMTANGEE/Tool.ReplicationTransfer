@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace Tool.ReplicationTransfer
+namespace AMTANGEE.Tools.ReplicationTransfer
 {
     /// <summary>
     /// Interaction logic for App.xaml
