@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tool.ReplicationTransfer.Properties {
+namespace AMTANGEE.Tools.ReplicationTransfer.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Tool.ReplicationTransfer.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tool.ReplicationTransfer.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AMTANGEE.Tools.ReplicationTransfer.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

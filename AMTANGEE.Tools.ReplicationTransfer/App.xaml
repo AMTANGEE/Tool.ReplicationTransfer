@@ -1,7 +1,7 @@
-﻿<Application x:Class="Tool.ReplicationTransfer.App"
+﻿<Application x:Class="AMTANGEE.Tools.ReplicationTransfer.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Tool.ReplicationTransfer"
+             xmlns:local="clr-namespace:AMTANGEE.Tools.ReplicationTransfer"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Tool.ReplicationTransfer
+namespace AMTANGEE.Tools.ReplicationTransfer
 {
     /// <summary>
     /// Interaction logic for InputControl.xaml
